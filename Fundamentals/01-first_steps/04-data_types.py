@@ -49,3 +49,18 @@ print(type(data))   # This will print <class 'str'>
 # Experiment with different data types to become more familiar with their usage and capabilities!
 # Practice using different data types to enhance your coding skills!
 # Happy coding!
+
+# Everything in python is an object, and each object has a type.
+print(type(42))            # int
+print(type(3.14))          # float
+print(type("Hello, World!"))  # str
+print(type([1, 2, 3]))     # list
+print(type((1, 2, 3)))     # tuple
+print(type({"key": "value"}))  # dict
+print(type(True))          # bool
+# You can also create your own data types using classes.
+class Dog:
+    def __init__(self, name):
+        self.name = name
+my_dog = Dog("Molly")
+print(type(my_dog))  # This will print <class '__main__.Dog'>
