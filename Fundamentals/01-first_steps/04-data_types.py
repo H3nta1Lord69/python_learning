@@ -48,7 +48,6 @@ print(type(data))   # This will print <class 'str'>
 # In summary, understanding and utilizing different data types is fundamental to programming in Python.
 # Experiment with different data types to become more familiar with their usage and capabilities!
 # Practice using different data types to enhance your coding skills!
-# Happy coding!
 
 # Everything in python is an object, and each object has a type.
 print(type(42))            # int
